@@ -1,0 +1,119 @@
+{{ define "main" }}
+
+
+<style>
+.searchbox {
+    padding-top: 1px;
+}
+.searchbox form{
+display: flex;
+}
+</style>
+<div class="searchbox">
+
+<form role="search" method="get" action="https://www.google.com/search">
+  <input type="search" size="50" placeholder="Pesquise no homelaber.com.br..." value="" name="q" title="Pesquisar:" >
+  <input type="hidden" name="sitesearch" value="homelaber.com.br">
+  <button type="submit" value="Submit"><i class="fas fa-search"></i></button>
+</form>
+</div>
+
+
+
+
+  <div class="posts">
+   <!--  {{ $isntDefault := not (or (eq (trim $.Site.Params.contentTypeName " ") "posts") (eq (trim $.Site.Params.contentTypeName " ") "")) }}
+    {{ $contentTypeName := cond $isntDefault (string $.Site.Params.contentTypeName) "posts" }} -->
+
+    {{ $PageContext := . }}
+    {{ if .IsHome }}
+      {{ $PageContext = .Site }}
+    {{ end }}
+    {{ $paginator := .Paginate (where $PageContext.RegularPages "Type" $contentTypeName) }}
+
+    {{ range $paginator.Pages }}
+    <div class="post on-list">
+      <!--Se encontrar o parametro link no post, não coloca o href no titulo-->
+      {{ if .Params.link }}
+         <h1 class="post-title">{{ .Title | markdownify }}</h1>
+      {{else}}
+          <h1 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
+      {{end}}
+
+      <div class="post-meta">
+        {{ if .Date }}
+          <span class="post-date">
+            <i class="fas fa-calendar-day"></i> {{ .Date.Format ($.Site.Params.DateFormatList | default "2006-01-02") }}
+          </span>
+        {{ end }}
+        {{ with .Params.Author }}
+		<span class="post-author"> — 
+		<i class="fas fa-user-ninja"></i> {{ $.Site.Params.WrittenBy | default "Written by" }} {{ . }}</span>{{ end }}
+        {{ if $.Site.Params.ShowReadingTime }}
+          <span class="post-read-time" > — <i class="fas fa-hourglass-half"></i> {{ .ReadingTime }} {{ $.Site.Params.MinuteReadingTime | default "min read" }}</span>
+		  <span class="post-read-time"> — <i class="fas fa-book-dead"></i> {{ .WordCount }} {{ $.Site.Params.wordCount | default "words" }}</span>
+
+        {{ end }}
+      </div>
+
+<!--
+Não vai mostrar as tags na home. Somente dentro do post
+      {{ if .Params.tags }}
+        <span class="post-tags">
+          {{ range .Params.tags }}
+            <i class="fas fa-tag"></i>
+			<a href="{{ (urlize (printf "tags/%s" . )) | absURL }}/">{{ . }}</a>&nbsp;
+          {{ end }}
+        </span>
+      {{ end }}
+--> 	  
+      {{ if .Params.tags }}
+        <span class="post-categories">
+          {{ range .Params.categories }}
+            <i class="fas fa-folder-open"></i>
+			<a href="{{ (urlize (printf "categories/%s" . )) | absURL }}/">{{ . }}</a>&nbsp;
+          {{ end }}
+        </span>
+      {{ end }}
+
+
+      {{ if .Params.Cover }}
+        {{ if .Params.UseRelativeCover }}
+          <img src="{{ (printf "%s%s" .Permalink .Params.Cover ) }}" class="post-cover" />
+        {{ else }}
+          <img src="{{ .Params.Cover | absURL }}" class="post-cover" />
+        {{ end }}
+      {{ end }}
+
+
+    
+      <div class="post-content">
+        {{ with .Description }}
+          {{ . | markdownify }}
+        {{ else }}
+          {{ if .Truncated }}
+            {{ .Summary | markdownify }}
+          {{else}}
+           <div>
+          {{ .Content }}
+            </div>
+          {{ end }}
+        {{ end }}
+      </div> 
+
+      <!--Se encontrar o parametro link no post, não coloca o href no titulo-->
+      {{ if .Params.link }}
+      {{else}}
+      <div><a class="read-more button" href="{{.RelPermalink}}">{{ $.Site.Params.ReadMore | default "Read more" }} →</a></div>
+      {{end}}
+
+
+		
+    </div>
+
+    {{ end }}
+
+    {{ partial "pagination.html" . }}
+  </div>
+  
+{{ end }}

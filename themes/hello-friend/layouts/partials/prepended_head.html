@@ -1,0 +1,61 @@
+<!--
+If you want to include any custom html at the beginning of </head> before scripts or links are declared,
+put it in /layouts/partials/prepended_head.html. Do not put anything in this file - it's only here so that hugo won't throw an error if /layouts/partials/prepended_head.html doesn't exist.
+-->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60449897-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-60449897-1');
+</script>
+
+<link href="/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles to show fontawesome icons -->
+
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="/img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="/img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="/img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="/img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="/img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="/img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="/img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="/img/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Blog Homelaber Brasil"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/img/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/img/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/img/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/img/mstile-310x310.png" />
+
+
+
+<!-- meta properties open graph -->
+<meta property="og:type" content="blog" />
+<meta property="og:description" content="{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }}" />
+<meta property="og:site_name" content="Homelaber Brasil" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ if eq .Kind "taxonomy" }}{{ .Title }} | YourSite {{ else }}{{ .Title }}{{ end }}" />
+<meta property="og:description" content="{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }}" />
+<meta property="og:image" content="{{if .Params.image}}{{.Params.image}}{{else}} {{ .Site.Params.defaultimage }} {{end}}" />
+
+
+<!-- meta properties twitter card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@homelaber" />
+<meta name="twitter:creator" content="@homelaber" />
+<meta name="twitter:title" content="{{ if eq .Kind "taxonomy" }}{{ .Title }} | YourSite {{ else }}{{ .Title }}{{ end }}" />
+<meta name="twitter:description" content="{{ if .Description }} {{ .Description }} {{ else }} {{ .Site.Params.Description }} - {{ .Title }} {{ end }}" />
+<meta name="twitter:image" content="{{if .Params.image}}{{.Params.image}}{{else}} {{ .Site.Params.defaultimage }} {{end}}" />
+<meta name="twitter:url" content="{{ .Permalink }}" />
+
