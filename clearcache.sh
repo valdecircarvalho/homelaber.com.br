@@ -1,5 +1,6 @@
 #!/bin/bash
-# Clear CloudFlare cache for homelaber.com.br
+
+echo "Purging cache for homelaber.com.br"
 
 curl -X DELETE "https://api.cloudflare.com/client/v4/zones/d38f5ec0396fbe7d2eba3ae4d8bd5c65/purge_cache" \
 -H "X-Auth-Email: homelaber@gmail.com" \

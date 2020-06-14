@@ -3,6 +3,7 @@
 *.bat
 *.cmd
 *.btm
+*.sh
 
 ### Log ###
 # LogFiles
