@@ -4,21 +4,105 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/blog.html</loc>
-    <lastmod>2020-06-10T09:30:03-03:00</lastmod>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/</loc>
-    <lastmod>2020-06-10T09:30:03-03:00</lastmod>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories.html</loc>
-    <lastmod>2020-06-10T09:30:03-03:00</lastmod>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/como-ser-um-vexpert.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/dicas-vexpert.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/o-que-%C3%A9-um-vexpert.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/post.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/programa-vmware-vexpert-20202h-dicas/</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/vexpert.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vexpert.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vexpert-brasil.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vmware.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vmware-brasil.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/vmware-vexpert.html</loc>
+    <lastmod>2020-06-14T08:30:27-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -60,20 +144,6 @@
   
   <url>
     <loc>https://homelaber.com.br/hashicorp-ambassador-2020/</loc>
-    <lastmod>2020-06-10T09:30:03-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/post.html</loc>
-    <lastmod>2020-06-10T09:30:03-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags.html</loc>
     <lastmod>2020-06-10T09:30:03-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -591,20 +661,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/vexpert.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vexpert.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/vexpert2020.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -613,13 +669,6 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/vmware.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vmware.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -1005,13 +1054,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vmugsp.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vmware-brasil.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2600,13 +2642,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/vexpert-brasil.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/vexpert-classe-2019-brasil/</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -3028,13 +3063,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vmware-expert.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/vmware-vexpert.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
