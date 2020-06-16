@@ -26,6 +26,9 @@ categories = ["Blog", "vExpert"]
 
 {{< target-blank title="" url="" >}}
 
+**Update 16/06/2020**
+
+_No próximo dia 18/06/2020, eu e o Ricardo Conzatti iremos fazer uma sessão via Zoom para tirar suas dúvidas sobre o programa VMware vExpert. Só acessar o link https://bit.ly/zoom-vexpert-18-06-2020 e participar. Espero vocês lá!_
 
 Olá Homelabers!
 
