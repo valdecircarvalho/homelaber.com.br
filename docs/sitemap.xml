@@ -3,22 +3,92 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://homelaber.com.br/tags/#thedevconf.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/categories/blog.html</loc>
-    <lastmod>2020-06-16T20:17:10-03:00</lastmod>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/</loc>
-    <lastmod>2020-06-16T20:17:10-03:00</lastmod>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories.html</loc>
-    <lastmod>2020-06-16T20:17:10-03:00</lastmod>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/comunidade.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/comunidade.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/evento.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/palestra.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/palestra.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/post.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/tdc.html</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tdc-saopaulo-2020/</loc>
+    <lastmod>2020-08-24T11:37:32-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,21 +115,7 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/post.html</loc>
-    <lastmod>2020-06-16T20:17:10-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/programa-vmware-vexpert-20202h-dicas/</loc>
-    <lastmod>2020-06-16T20:17:10-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags.html</loc>
     <lastmod>2020-06-16T20:17:10-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -103,20 +159,6 @@
   <url>
     <loc>https://homelaber.com.br/tags/vmware-vexpert.html</loc>
     <lastmod>2020-06-16T20:17:10-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/categories/comunidade.html</loc>
-    <lastmod>2020-06-10T09:30:03-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/comunidade.html</loc>
-    <lastmod>2020-06-10T09:30:03-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -1068,13 +1110,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vmware-tanzu.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/evento.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -2342,13 +2377,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/grupo-de-usu%C3%A1rios-amazon-aws.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/palestra.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
