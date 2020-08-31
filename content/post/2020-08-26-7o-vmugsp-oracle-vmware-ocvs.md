@@ -1,8 +1,8 @@
 +++
 author = "Valdecir Carvalho"
 title = "7o Encontro VMUG São Paulo - Oracle & VMware"
-date = "2020-08-30 07:00:00"
-publishDate = "2020-08-30 07:00:00"
+date = "2020-08-31 00:00:00"
+publishDate = "2020-08-30 00:00:00"
 type = "post"
 draft = "false"
 url = "/7o-vmugsp-oracle-cloud-vmware-solutions"
