@@ -35,7 +35,7 @@ O OCVS foi anunciado pelo Mr. Oracle Larry Ellison em 2019 durante a Oracle Open
 
 Eu me lembro que estava "namorando" com a Oracle na época e fiquei bastante animado com o anúncio e muito curioso para colocar minhas mãozinhas nesse produto.
 
-O tempo passou e no último dia 06/08/2020 aconteceu o anúncio oficial e aqui estou eu para começar uma série sobre OCVS para v
+O tempo passou e no último dia 06/08/2020 aconteceu o anúncio oficial e aqui estou eu para começar uma série sobre OCVS para vocês.
 
 {{< target-blank title="" url="" >}}
 
@@ -57,5 +57,5 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjMyMDI5OV19
+eyJoaXN0b3J5IjpbNDUwNjY0NjEyXX0=
 -->
