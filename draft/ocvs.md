@@ -43,10 +43,10 @@ O tempo passou e no último dia 06/08/2020 aconteceu o anúncio oficial e aqui e
 ----
 O Oracle Cloud VMware Solution ou OCVS é um produto da Oracle que permite executar o stack SDDC (VMware Cloud Foundation) da VMware em servidore Barel Metal na Oracle Cloud.
 
- 1. Um produto da Oracle que combina o Oracle Cloud Infrastructure e o
+ - Um produto da Oracle que combina o Oracle Cloud Infrastructure e o
    software VMware
- 2. Uma solução certificada da plataforma VMware Cloud Foundation  
- 3. Vendido pela Oracle e por parceiros da Oracle
+ - Uma solução certificada da plataforma VMware Cloud Foundation  
+ - Vendido pela Oracle e por parceiros da Oracle
  
 ## Principais Benefícios
 ----
@@ -61,5 +61,5 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYwNTUzOTUsNDUwNjY0NjEyXX0=
+eyJoaXN0b3J5IjpbMTg4NTQ5MjY3Niw0NTA2NjQ2MTJdfQ==
 -->
