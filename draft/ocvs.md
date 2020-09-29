@@ -64,15 +64,17 @@ vSAN 6.6 ou 6.7
 
 ## Principais Benefícios
 ----
+It's JUST VMware!
 
 Eu vejo vários benefícios do OCVS, principalmente se você tem workloads Oracle rodando On-Prem. 
 
 1. Flexibilidade da Cloud - 
 2. Controle
 3. Gerenciamento
-4. Consumo de Workloads
 
-It's JUST VMware!
+E lembrando que o cluster SDDC do OCVS roda dentro de uma VCN, ou seja, o seu VMware está ali do ladinho de todos os serviços OCI.
+
+
 ## Casos de Uso
 ----
 
@@ -83,7 +85,7 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NDE3Mjk3OCw1MTc2NjUwODUsLTg4OD
+eyJoaXN0b3J5IjpbMTQyMjQ3MjM1Niw1MTc2NjUwODUsLTg4OD
 Q0NjkyMiwtMTk3ODg5MzE0MSwxODg1NDkyNjc2LDQ1MDY2NDYx
 Ml19
 -->
