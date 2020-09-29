@@ -79,7 +79,13 @@ E lembrando que o cluster SDDC do OCVS roda dentro de uma VCN, ou seja, o seu VM
 ## Casos de Uso
 ----
 
-Os principais casos 
+Os principais casos de uso para o OCVS na minha opinião são:
+
+- Migração de Datacenter 
+- Expansão de Capacidade
+- DR
+- 
+
 ## Mais informações
 ----
 Video VMUG SP
@@ -87,7 +93,7 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTgxNjI2OSwtNzM0NTg2MDk4LC0yMz
-A0MTYzMDcsNTE3NjY1MDg1LC04ODg0NDY5MjIsLTE5Nzg4OTMx
-NDEsMTg4NTQ5MjY3Niw0NTA2NjQ2MTJdfQ==
+eyJoaXN0b3J5IjpbNzQ4NjYyODc1LC03MzQ1ODYwOTgsLTIzMD
+QxNjMwNyw1MTc2NjUwODUsLTg4ODQ0NjkyMiwtMTk3ODg5MzE0
+MSwxODg1NDkyNjc2LDQ1MDY2NDYxMl19
 -->
