@@ -72,7 +72,7 @@ Eu vejo vários benefícios do OCVS, principalmente se você tem workloads Oracl
 2. Controle
 3. Gerenciamento
 
-E lembrando que o cluster SDDC do OCVS roda dentro de uma VCN, ou seja, o seu VMware está ali do ladinho de todos os serviços OCI.
+E lembrando que o cluster SDDC do OCVS roda dentro de uma VCN, ou seja, o seu VMware está ali do ladinho de todos os serviços OCI. 
 
 
 ## Casos de Uso
@@ -85,7 +85,7 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjQ3MjM1Niw1MTc2NjUwODUsLTg4OD
-Q0NjkyMiwtMTk3ODg5MzE0MSwxODg1NDkyNjc2LDQ1MDY2NDYx
-Ml19
+eyJoaXN0b3J5IjpbNTc3MjI5MDI2LDUxNzY2NTA4NSwtODg4ND
+Q2OTIyLC0xOTc4ODkzMTQxLDE4ODU0OTI2NzYsNDUwNjY0NjEy
+XX0=
 -->
