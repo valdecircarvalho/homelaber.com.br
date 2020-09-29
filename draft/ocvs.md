@@ -47,7 +47,8 @@ O Oracle Cloud VMware Solution ou OCVS é um produto da Oracle que permite execu
    software VMware
  - Uma solução certificada da plataforma VMware Cloud Foundation  
  - Vendido pela Oracle e por parceiros da Oracle
- 
+
+## O que é o Oracle Cloud VMware Solution? 
  O deploy de  um Cluster SDDC do Oracle Cloud VMware Solution inicia com um mínimo de 3 hosts Baremetal (oi vSan).
 
 Cada host tem 52 oCPUs (Cores físicos), 768 GB RAM e 51 TB de Storage NVME SSD. O processador desse host Baremetal é um Intel Xeon Platinum 8167M de 2.0 GHz - ou seja, um senhor processador. 
@@ -59,6 +60,7 @@ Falando de software, você pode escolher entre 2 versões do vSphere + NSX + vSA
 vSphere 6.5 Update 3 ou vSphere 6.7 Update 3
 NSX-T 2.5
 vSAN 6.6 ou 6.7
+
 ## Principais Benefícios
 ----
 
@@ -72,6 +74,6 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc1NTE3ODEsLTg4ODQ0NjkyMiwtMT
-k3ODg5MzE0MSwxODg1NDkyNjc2LDQ1MDY2NDYxMl19
+eyJoaXN0b3J5IjpbMTA5MTk5NDEyNCwtODg4NDQ2OTIyLC0xOT
+c4ODkzMTQxLDE4ODU0OTI2NzYsNDUwNjY0NjEyXX0=
 -->
