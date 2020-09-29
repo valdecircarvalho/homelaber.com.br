@@ -54,9 +54,10 @@ Cada host tem 52 oCPUs (Cores físicos), 768 GB RAM e 51 TB de Storage NVME SSD.
 
 No total, um cluster mínimo entrega 156 oCPUS (Cores Físicos), 2304 GB Memória RAM e 153 TB de Storage NVME SSD (raw). 
 
-Falando de software, você pode escolher entre 3 versões do vSphere + NSX + vSAN:
+Falando de software, você pode escolher entre 2 versões do vSphere + NSX + vSAN:
 
-vSphere 6.5
+vSphere 6.5 Update 3
+vSphere 6.7 Update
 ## Principais Benefícios
 ----
 
@@ -70,6 +71,6 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTU5ODM1MiwtMTk3ODg5MzE0MSwxOD
+eyJoaXN0b3J5IjpbLTg4ODQ0NjkyMiwtMTk3ODg5MzE0MSwxOD
 g1NDkyNjc2LDQ1MDY2NDYxMl19
 -->
