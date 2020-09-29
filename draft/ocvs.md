@@ -70,6 +70,7 @@ Eu vejo vários benefícios do OCVS, principalmente se você tem workloads Oracl
 1. Flexibilidade da Cloud - 
 2. Controle
 3. Gerenciamento
+4. Consumo de Workloads
 
 It's JUST VMware!
 ## Casos de Uso
@@ -82,6 +83,7 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE3NjY1MDg1LC04ODg0NDY5MjIsLTE5Nz
-g4OTMxNDEsMTg4NTQ5MjY3Niw0NTA2NjQ2MTJdfQ==
+eyJoaXN0b3J5IjpbMTQ2NDE3Mjk3OCw1MTc2NjUwODUsLTg4OD
+Q0NjkyMiwtMTk3ODg5MzE0MSwxODg1NDkyNjc2LDQ1MDY2NDYx
+Ml19
 -->
