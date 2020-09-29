@@ -48,7 +48,7 @@ O Oracle Cloud VMware Solution ou OCVS é um produto da Oracle que permite execu
  - Uma solução certificada da plataforma VMware Cloud Foundation  
  - Vendido pela Oracle e por parceiros da Oracle
  
- O deploy de  um Cluster SDDC do Oracle Cloud VMware Solution inicia com 3 hosts (oi vSan)
+ O deploy de  um Cluster SDDC do Oracle Cloud VMware Solution inicia com 3 hosts (oi vSan) 
 ## Principais Benefícios
 ----
 
@@ -62,6 +62,6 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg4OTMxNDEsMTg4NTQ5MjY3Niw0NT
-A2NjQ2MTJdfQ==
+eyJoaXN0b3J5IjpbLTU4NjAyNjgzLC0xOTc4ODkzMTQxLDE4OD
+U0OTI2NzYsNDUwNjY0NjEyXX0=
 -->
