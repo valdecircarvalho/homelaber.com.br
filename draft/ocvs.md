@@ -52,7 +52,11 @@ O Oracle Cloud VMware Solution ou OCVS é um produto da Oracle que permite execu
 
 Cada host tem 52 oCPUs (Cores físicos), 768 GB RAM e 51 TB de Storage NVME SSD. O processador desse host Baremetal é um Intel Xeon Platinum 8167M de 2.0 GHz - ou seja, um senhor processador. 
 
-No total, um cluster mínimo entrega 156 oCPUS (Cores F
+No total, um cluster mínimo entrega 156 oCPUS (Cores Físicos), 2304 GB Memória RAM e 153 TB de Storage NVME SSD (raw). 
+
+Falando de software, você pode escolher entre 3 versões do vSphere + NSX + vSAN:
+
+vSphere 6.5
 ## Principais Benefícios
 ----
 
@@ -66,6 +70,6 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDYyODg4NSwtMTk3ODg5MzE0MSwxOD
+eyJoaXN0b3J5IjpbMTgwNTU5ODM1MiwtMTk3ODg5MzE0MSwxOD
 g1NDkyNjc2LDQ1MDY2NDYxMl19
 -->
