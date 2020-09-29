@@ -65,7 +65,7 @@ vSAN 6.6 ou 6.7
 ## Principais Benefícios
 ----
 
-Eu vejo 3 principais benefícios do OCVS:
+Eu vejo vários benefícios do OCVS, principalmente se você tem workloads Oracle rodando On-Prem. 
 
 1. Flexibilidade da Cloud - 
 2. Controle
@@ -82,6 +82,6 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDIwODUyOTQsLTg4ODQ0NjkyMiwtMT
-k3ODg5MzE0MSwxODg1NDkyNjc2LDQ1MDY2NDYxMl19
+eyJoaXN0b3J5IjpbNTE3NjY1MDg1LC04ODg0NDY5MjIsLTE5Nz
+g4OTMxNDEsMTg4NTQ5MjY3Niw0NTA2NjQ2MTJdfQ==
 -->
