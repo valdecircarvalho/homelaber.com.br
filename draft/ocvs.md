@@ -78,6 +78,7 @@ E lembrando que o cluster SDDC do OCVS roda dentro de uma VCN, ou seja, o seu VM
 ## Casos de Uso
 ----
 
+Os principais casos 
 ## Mais informações
 ----
 Video VMUG SP
@@ -85,7 +86,7 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MjI5MDI2LDUxNzY2NTA4NSwtODg4ND
-Q2OTIyLC0xOTc4ODkzMTQxLDE4ODU0OTI2NzYsNDUwNjY0NjEy
-XX0=
+eyJoaXN0b3J5IjpbLTIzMDQxNjMwNyw1MTc2NjUwODUsLTg4OD
+Q0NjkyMiwtMTk3ODg5MzE0MSwxODg1NDkyNjc2LDQ1MDY2NDYx
+Ml19
 -->
