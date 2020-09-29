@@ -71,7 +71,7 @@ Eu vejo vários benefícios do OCVS, principalmente se você tem workloads Oracl
 1. Flexibilidade da Cloud - 
 2. Controle
 3. Gerenciamento
-4. Localização - A Cloud Oracle hoje está presente em 18 localidades ao redor do mundo e no Brasil temos 1 DC operacional (em SP) e um próximo no roadmap para 2021. Você pode rodar o seu workload VMware no Brasil sem nenhum custo extra. Na Oracle Cloud, o custo é totalmente independe de onde o seu 
+4. Localização - A Cloud Oracle hoje está presente em 18 localidades ao redor do mundo e no Brasil temos 1 DC operacional (em SP) e um próximo no roadmap para 2021. Você pode rodar o seu workload VMware no Brasil sem nenhum custo extra. Na Oracle Cloud, o custo é totalmente independe de onde o seu workload está - lindo isso não?
 
 E lembrando que o cluster SDDC do OCVS roda dentro de uma VCN, ou seja, o seu VMware está ali do ladinho de todos os serviços OCI. 
 
@@ -87,7 +87,7 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MzY3OTY2MywtNzM0NTg2MDk4LC0yMz
+eyJoaXN0b3J5IjpbLTcxMTgxNjI2OSwtNzM0NTg2MDk4LC0yMz
 A0MTYzMDcsNTE3NjY1MDg1LC04ODg0NDY5MjIsLTE5Nzg4OTMx
 NDEsMTg4NTQ5MjY3Niw0NTA2NjQ2MTJdfQ==
 -->
