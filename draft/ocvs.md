@@ -56,8 +56,9 @@ No total, um cluster mínimo entrega 156 oCPUS (Cores Físicos), 2304 GB Memóri
 
 Falando de software, você pode escolher entre 2 versões do vSphere + NSX + vSAN:
 
-vSphere 6.5 Update 3
-vSphere 6.7 Update
+vSphere 6.5 Update 3 ou vSphere 6.7 Update 3
+NSX-T 2.5
+vSAN 6.6 ou 6.7
 ## Principais Benefícios
 ----
 
@@ -71,6 +72,6 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODQ0NjkyMiwtMTk3ODg5MzE0MSwxOD
-g1NDkyNjc2LDQ1MDY2NDYxMl19
+eyJoaXN0b3J5IjpbLTExMDc1NTE3ODEsLTg4ODQ0NjkyMiwtMT
+k3ODg5MzE0MSwxODg1NDkyNjc2LDQ1MDY2NDYxMl19
 -->
