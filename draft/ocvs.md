@@ -31,7 +31,7 @@ Acabei de perceber que já estou há 7 meses trabalhando na Oracle e 7 meses de 
 
 No post de hoje, vou falar sobre um "novo" produto da Oracle que estou conseguindo trabalhar bastante, o Oracle Cloud VMware Solution ou OCVS. A ideia desse post é aterrissar o assunto e depois, nos próximos posts aprofundar mais sobre o produto.
 
-O OCVS foi anunciado pelo Mr. Oracle Larry Ellison em 2019 durante a Oracle Openworld e causou um grande furor na comunidade VMware, pois a parceria entre Oracle e VMware foi uma grande surpresa para muita gente. 
+O OCVS foi anunciado pelo Mr. Oracle Larry Ellison em 2019 durante a Oracle Openworld e causou um grande furor na comunidade VMware, pois a parceria entre Oracle e VMware foi uma grande surpresa para muita gente - foi até chamado de O Milagre do Moscone
 
 Eu me lembro que estava "namorando" com a Oracle na época e fiquei bastante animado com o anúncio e muito curioso para colocar minhas mãozinhas nesse produto.
 
@@ -41,7 +41,7 @@ O tempo passou e no último dia 06/08/2020 aconteceu o anúncio oficial e aqui e
 
 ## O que é o Oracle Cloud VMware Solution?
 ----
-O Oracle Cloud VMware Solution ou OCVS é um produto da Oracle que permite executar o stack SDDC da VMware em servidore Barel Metal na Oracle Cloud.
+O Oracle Cloud VMware Solution ou OCVS é um produto da Oracle que permite executar o stack SDDC (VMware Cloud Foundation) da VMware em servidore Barel Metal na Oracle Cloud.
 
  
 ## Principais Benefícios
@@ -57,5 +57,5 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwNjY0NjEyXX0=
+eyJoaXN0b3J5IjpbMzMzMzUzNzcxLDQ1MDY2NDYxMl19
 -->
