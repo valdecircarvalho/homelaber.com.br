@@ -48,6 +48,7 @@ O Oracle Cloud VMware Solution ou OCVS é um produto da Oracle que permite execu
  - Uma solução certificada da plataforma VMware Cloud Foundation  
  - Vendido pela Oracle e por parceiros da Oracle
  
+ O OCVS 
 ## Principais Benefícios
 ----
 
@@ -61,5 +62,6 @@ https://youtu.be/8tmHQEJ_XcY
 
 ----
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTQ5MjY3Niw0NTA2NjQ2MTJdfQ==
+eyJoaXN0b3J5IjpbMTIzOTA1OTQxMiwxODg1NDkyNjc2LDQ1MD
+Y2NDYxMl19
 -->
