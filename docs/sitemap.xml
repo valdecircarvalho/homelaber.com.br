@@ -3,35 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://homelaber.com.br/7o-vmugsp-oracle-cloud-vmware-solutions/</loc>
-    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/categories/blog.html</loc>
-    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
+    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/</loc>
-    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
+    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories.html</loc>
-    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
+    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/cloud.html</loc>
+    <loc>https://homelaber.com.br/conheca-o-oracle-cloud-vmware-solution-ocvs/</loc>
     <lastmod>2020-10-04T22:40:12-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -39,13 +32,6 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/oci.html</loc>
-    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/oci.html</loc>
     <lastmod>2020-10-04T22:40:12-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -95,7 +81,7 @@
   
   <url>
     <loc>https://homelaber.com.br/post.html</loc>
-    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
+    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -116,6 +102,27 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/vmware.html</loc>
+    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/7o-vmugsp-oracle-cloud-vmware-solutions/</loc>
+    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/cloud.html</loc>
+    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/oci.html</loc>
     <lastmod>2020-10-04T22:40:12-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -13816,6 +13823,13 @@
   <url>
     <loc>https://homelaber.com.br/url-do-post/</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/url-do-post/</loc>
+    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
