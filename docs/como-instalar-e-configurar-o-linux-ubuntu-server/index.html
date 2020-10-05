@@ -351,7 +351,7 @@ Antes de mais nada, esse post pode parecer a primeira vista bastante longo, mas 
 <p>Defina do tamanho e o tipo. Nesse caso, defini um disco pequeno de 20 GB que é mais do que suficiente para a instalação do Ubuntu.</p>
 <p>Outra escolha importante é o tipo de provisionamento de disco. Aqui vale um parenteses com a explicação de cada tipo de disco.</p>
 <p><img src="../imagens/2015/11/homelaber-instalacao-ubuntu-server-homelab-013.png" alt="homelaber-instalacao-ubuntu-server-homelab-013"></p>
-<p>[su_box title=&quot;Diferenças entre tipos de disco em uma VM&rdquo;]</p>
+<p>[su_box title=&ldquo;Diferenças entre tipos de disco em uma VM&rdquo;]</p>
 <p>** Thick Provision Lazy Zeroed ** – é um disco “thick” padrão, ou seja, <em>todo o espaço é alocado no momento da sua criação</em>. Neste formato de disco virtual, qualquer dado que exista no dispositivo físico é mantido no momento da criação, e só são “zerados” no momento em que a máquina virtual vai escrevendo seus dados.</p>
 <p><strong>Thick Provision Eager Zeroed</strong> – é um disco “thick” que possui suporte a alguns recursos de cluster, como FT. Também aloca todo o espaço necessário no momento da sua criação. A diferença para o formato “lazy” (ou flat) é que os dados existentes no dispositivo físico são todos zerados no momento da criação. O tempo de criação deste tipo de disco pode demorar mais que os demais.</p>
 <p><strong>Thin Provision</strong> – neste tipo de disco <em>apenas um espaço mínimo é utilizado no momento da sua criação</em>. A medida que mais espaço físico for sendo necessário, o disco “thin” vai aumentando o seu tamanho, podendo chegar até o tamanho alocado inicialmente.</p>
@@ -450,7 +450,7 @@ apt-get upgrade - para fazer a atualização dos pacotes instalados.
 <p>Viu só&hellip; não doeu nada :). Hoje em dia, instalar o Linux Ubuntu Server em uma VMware é super rápido e fácil. Se você NUNCA mexeu com Linux antes, vou deixar alguns links com comandos básicos para você ir treinando. Recomendo muito, buscar mais informações, tutoriais no Youtube, livros, etc. O Google é o seu melhor amigo :).</p>
 <p>Nos próximos posts, irei mostar como instalar alguns sistemas e servidores e esse post é a base para isso.</p>
 <p>Referências:</p>
-<p>[su_note radius=&quot;0&rdquo;]</p>
+<p>[su_note radius=&ldquo;0&rdquo;]</p>
 <p><a href="http://www.ic.unicamp.br/~mc102/aulas/laboratorio/comandos_basicos_linux.pdf">Comandos básicos do Linux - via Instituto Computação Unicamp</a></p>
 <p><a href="http://www.vivaolinux.com.br/dica/Comandos-basicos-para-iniciantes">Comandos básicos para iniciantes - via Viva o Linux</a></p>
 <p><a href="http://wiki.ubuntu-br.org/ComandosBasicos">Comandos Básicos - via Wiki Ubuntu.org</a></p>

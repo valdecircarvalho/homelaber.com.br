@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 <meta name="description" content="Olá Homelabers!
 Nesse post vou mostrar a vocês como instalar e configurar o servidor de e-mail Postfix no Linux Ubuntu e como usar a sua conta do Gmail para enviar e-mails a partir desse servidor. Iremos criar um chamado Mail Relay, ou seja, esse servidor será o responsável por enviar e-mails de todas as suas aplicações ao mundo externo atraves do Gmail.
-[caption id=&amp;quot;attachment_922&amp;rdquo; align=&amp;quot;aligncenter&amp;rdquo; width=&amp;quot;580&amp;rdquo;]Logo PostFix - http://www.postfix.org/[/caption]
+[caption id=&amp;ldquo;attachment_922&amp;rdquo; align=&amp;ldquo;aligncenter&amp;rdquo; width=&amp;ldquo;580&amp;rdquo;]Logo PostFix - http://www.postfix.org/[/caption]
 Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário:"/>
 <meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
 <meta name="robots" content="noodp"/>
@@ -286,7 +286,7 @@ Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário
       
       <p>Olá Homelabers!</p>
 <p>Nesse post vou mostrar a vocês como instalar e configurar o servidor de e-mail Postfix no Linux Ubuntu e como usar a sua conta do Gmail para enviar e-mails a partir desse servidor. Iremos criar um chamado Mail Relay, ou seja, esse servidor será o responsável por enviar e-mails de todas as suas aplicações ao mundo externo atraves do Gmail.</p>
-<p>[caption id=&quot;attachment_922&rdquo; align=&quot;aligncenter&rdquo; width=&quot;580&rdquo;]<img src="../imagens/2015/11/postfix-logo.jpg" alt="postfix-logo">
+<p>[caption id=&ldquo;attachment_922&rdquo; align=&ldquo;aligncenter&rdquo; width=&ldquo;580&rdquo;]<img src="../imagens/2015/11/postfix-logo.jpg" alt="postfix-logo">
 Logo PostFix - <a href="http://www.postfix.org/%5B/caption%5D">http://www.postfix.org/[/caption]</a></p>
 <p>Esse tipo de configuração é muito utilizada nas empresas, imagine o cenário:</p>
 <!-- raw HTML omitted -->
@@ -301,7 +301,7 @@ Logo PostFix - <a href="http://www.postfix.org/%5B/caption%5D">http://www.postfi
 <p>Veja abaixo uma figura explicando o conceito<!-- raw HTML omitted --></p>
 <p><img src="../imagens/2015/11/exemplo-mail-relay.png" alt="exemplo-mail-relay"></p>
 <p>Então vamos lá!</p>
-<p>[su_note radius=&quot;0&rdquo;]Eu fiz essa instalação em uma VM com as seguintes configurações:
+<p>[su_note radius=&ldquo;0&rdquo;]Eu fiz essa instalação em uma VM com as seguintes configurações:
 1 vCPU
 20GB disco
 1 GB memória
@@ -350,7 +350,7 @@ inet_protocols = all
 </code></pre>
 <p>O arquivo deve ficar assim:</p>
 <p><img src="../imagens/2015/11/homelaber-mailrelay-postfix-gmail-008.png" alt="homelaber-mailrelay-postfix-gmail-008"></p>
-<p>[su_box title=&quot;ATENÇÃO&rdquo; box_color=&rdquo;#FF0000&rdquo;]Se a sua conta do Gmail tem o segundo fator de autenticação habilitado, será necessário criar uma senha de aplicativo para utilizar aqui, caso contrário não irá funcionar.</p>
+<p>[su_box title=&ldquo;ATENÇÃO&rdquo; box_color=&quot;#FF0000&quot;]Se a sua conta do Gmail tem o segundo fator de autenticação habilitado, será necessário criar uma senha de aplicativo para utilizar aqui, caso contrário não irá funcionar.</p>
 <p>**Como gerar uma senha de app: **</p>
 <pre><code>  * Acesse a página Senhas de app [ link ](https://security.google.com/settings/security/apppasswords). Talvez seja necessário fazer login na sua Conta do Google.
   * Na parte inferior da página, clique em Selecionar aplicativo e escolha o aplicativo que você está usando.
@@ -370,7 +370,7 @@ inet_protocols = all
 <pre><code>service postfix restart
 </code></pre>
 <p>Prontinho. O seu servidor de MailRelay já está instalado e configurado!</p>
-<p>[su_note radius=&quot;0&rdquo;]Troubleshooting:[/su_note]</p>
+<p>[su_note radius=&ldquo;0&rdquo;]Troubleshooting:[/su_note]</p>
 <p>Para fazer o teste, abra uma segunda janela e monitore o log do Postfix com o comando abaixo. Todos os e-mails enviados com sucesso ou não aparecerão nesse arquivo.</p>
 <pre><code>tail -f /var/log/maillog
 </code></pre>
