@@ -23,6 +23,8 @@ categories = ["Blog", "Oracle", "VMware", "Cloud", "OCVS", "OCI"]
 
 Olá Homelabers,
 
+**Update: Estou atualizando o post o vídeo gravado durante o VMUG SP. Basta rolar até o final do post. **
+
 No próximo dia 01/09 farei uma apresentação no **7o. VMUG São Paulo** falando sobre a nova oferta de Cloud da Oracle, fruto da parceria entre Oracle e VMware. A solução se chama Oracle Cloud VMware Solution ou OCVS.
 
 A ideia é fazer um overview da solução e mostrar os principais casos de uso.
@@ -57,5 +59,10 @@ E antes de terminar quero pedir uns favores:
 5. Compartilhe esse post em todas as suas redes sociais e com seus amiguinhos da firma.
 
 Sucesso para todos nós!
+
+----
+Update: Vídeo gravado durante o VMUG SP. 
+
+{{< youtube 8tmHQEJ_XcY >}}
 
 ----
