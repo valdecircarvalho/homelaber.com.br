@@ -3,22 +3,141 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://homelaber.com.br/tags/60d.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/categories/blog.html</loc>
-    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/</loc>
-    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/blogtober.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/blogtober.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/blogtober2020.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/blogtobertech.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/categories.html</loc>
-    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/firewall-fortigate-60d.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/firewall-fortigate-60d-no-home-lab/</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/fortigate.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/fortigate.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/fortigate-60d.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/fortinet.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/homelab.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/homelab.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories/lab.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags/lab.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/post.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/tags.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -74,20 +193,6 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/oracle-cloud-vmware-solutions.html</loc>
-    <lastmod>2020-10-04T22:40:12-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/post.html</loc>
-    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags.html</loc>
     <lastmod>2020-10-04T22:40:12-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -836,20 +941,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/categories/homelab.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/homelab.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/projetos/</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1361,13 +1452,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/blogtober.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/blogtober2019.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -1460,13 +1544,6 @@
   
   <url>
     <loc>https://homelaber.com.br/categories/#vcommunity.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/categories/blogtober.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -10888,13 +10965,6 @@
   </url>
   
   <url>
-    <loc>https://homelaber.com.br/tags/lab.html</loc>
-    <lastmod>2020-06-07T08:25:19-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://homelaber.com.br/tags/lab-cisco.html</loc>
     <lastmod>2020-06-07T08:25:19-03:00</lastmod>
     <changefreq>daily</changefreq>
@@ -13829,7 +13899,7 @@
   
   <url>
     <loc>https://homelaber.com.br/url-do-post/</loc>
-    <lastmod>2020-10-04T22:49:03-03:00</lastmod>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
