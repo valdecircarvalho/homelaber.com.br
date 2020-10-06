@@ -34,7 +34,7 @@ Hoje eu quero falar sobre a última aquisição para o meu home lab. Um Firewall
 
 ![image title](/imagens/2020/10/fortinetLogo.png)
 
-Primeiro vou falar sobre o Firewall Fortigate 60D, algumas specs. Mas antes de começar, vou deixar um agradecimento aqui ao {{< target-blank title="Ronaldo Costa" url="https://www.linkedin.com/in/joseronaldocosta/" >}}, que trabalha hoje na Fortinet como SE. Quando eu estava procurando um firewall, procurei o Ronaldo e ele me deu uma grande dica sobre os Fortinets - Não compre nada abaixo da Série D. Mas isso vou abordar melhor mais para frente no post.  
+Primeiro vou falar sobre o Firewall Fortigate 60D, algumas specs. Mas antes de começar, vou deixar um agradecimento aqui ao {{< target-blank title="Ronaldo Costa" url="https://www.linkedin.com/in/joseronaldocosta/" >}}, que trabalha hoje na Fortinet como Public Cloud CSE - e ele trabalha com nuvem pública, inclusive OCI. Adiciona ele lá no Linkedinho. Quando eu estava procurando um firewall, procurei o Ronaldo e ele me deu uma grande dica sobre os Fortinets - Não compre nada abaixo da Série D. Mas isso vou abordar melhor mais para frente no post.  
 
 
 ![image title](/imagens/2020/10/fortigate-60D-02.jpg)
