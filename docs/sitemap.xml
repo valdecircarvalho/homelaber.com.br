@@ -3,49 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://homelaber.com.br/tags/60d.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://homelaber.com.br/categories/blog.html</loc>
-    <lastmod>2021-01-03T01:12:48-03:00</lastmod>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://homelaber.com.br/</loc>
-    <lastmod>2021-01-03T01:12:48-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/categories.html</loc>
-    <lastmod>2021-01-03T01:12:48-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/github-da-galera-01/</loc>
-    <lastmod>2021-01-03T01:12:48-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/save-the-date-hashitalks-brasil-2020/</loc>
-    <lastmod>2021-01-03T01:12:48-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/post.html</loc>
-    <lastmod>2021-01-03T01:12:48-03:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://homelaber.com.br/tags/60d.html</loc>
     <lastmod>2020-10-06T09:07:38-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -74,6 +46,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/blogtobertech.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/categories.html</loc>
     <lastmod>2020-10-06T09:07:38-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -144,6 +123,13 @@
   
   <url>
     <loc>https://homelaber.com.br/tags/lab.html</loc>
+    <lastmod>2020-10-06T09:07:38-03:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://homelaber.com.br/post.html</loc>
     <lastmod>2020-10-06T09:07:38-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
