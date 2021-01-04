@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+<html prefix="og: http://ogp.me/ns#" lang="br">
+  <head>
+    
+      <title>Hashicorp Ambassador 2020 :: Blog Homelaber Brasil — Blog Homelabler Brasil | Home lab· Infraestrutura de TI· Virtualização· Cloud Computing · DevOps | Blog sobre Virtualização, Infraestrutura de TI, Cloud Computing e DevOps escrito em Português. Criado e editado por Valdecir Carvalho</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="Olá Homelabers!
+Vocês conhecem a HashiCorp? Aquele empresa super bacana que entre outros produtos do seu portfolio tem o Terraform?
+Hashicorp Ambassador  No final de Março 2020, a Hashicorp postou um tweet em sua conta falando sobre um novo programa chamado HashiCorp Ambassador, para reconhecer membros da comunidade pelos seus eforços em compartilhar conteúdo sobre as ferramentas HashiCorp. Achei muito legal a proposta do programa e resolvi me inscrever, mesmo achando que não daria em nada."/>
+<meta name="keywords" content="Blog, Infraestrutura, TI Corporativa, Virtualização, Veeam, Backup, Cloud, Cloud Computing, Cloud Native, Homelab"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="https://homelaber.com.br/hashicorp-ambassador-2020/" />
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60449897-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-60449897-1');
+</script>
+
+<link href="../fontawesome/css/all.css" rel="stylesheet"> 
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="../img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../img/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="../img/apple-touch-icon-60x60.png" />
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../img/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../img/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../img/apple-touch-icon-152x152.png" />
+<link rel="icon" type="image/png" href="../img/favicon-196x196.png" sizes="196x196" />
+<link rel="icon" type="image/png" href="../img/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/png" href="../img/favicon-32x32.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="../img/favicon-16x16.png" sizes="16x16" />
+<link rel="icon" type="image/png" href="../img/favicon-128.png" sizes="128x128" />
+<meta name="application-name" content="Blog Homelaber Brasil"/>
+<meta name="msapplication-TileColor" content="#FFFFFF" />
+<meta name="msapplication-TileImage" content="/img/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/img/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/img/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/img/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/img/mstile-310x310.png" />
+
+
+
+
+<meta property="og:type" content="blog" />
+<meta property="og:description" content=" Conheça o programa Hashicorp Ambassador, quem em sua primeira edição reconheceu diversos membros da comunidade pelos seus esforços em compartilhar conhecimento sobre as ferramentas HashiCorp e eu tive a honra de ser escolhido para participar desse seleto grupo de pessoas. Veja no post mais informações sobre o programa e um breve overview sobre a HashiCorp e seus produtos. " />
+<meta property="og:site_name" content="Homelaber Brasil" />
+<meta property="og:url" content="https://homelaber.com.br/hashicorp-ambassador-2020/" />
+<meta property="og:title" content="Hashicorp Ambassador 2020" />
+<meta property="og:description" content=" Conheça o programa Hashicorp Ambassador, quem em sua primeira edição reconheceu diversos membros da comunidade pelos seus esforços em compartilhar conhecimento sobre as ferramentas HashiCorp e eu tive a honra de ser escolhido para participar desse seleto grupo de pessoas. Veja no post mais informações sobre o programa e um breve overview sobre a HashiCorp e seus produtos. " />
+<meta property="og:image" content="/imagens/2020/06/hashicorp-ambassador-2020-cover.jpg" />
+
+
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@homelaber" />
+<meta name="twitter:creator" content="@homelaber" />
+<meta name="twitter:title" content="Hashicorp Ambassador 2020" />
+<meta name="twitter:description" content=" Conheça o programa Hashicorp Ambassador, quem em sua primeira edição reconheceu diversos membros da comunidade pelos seus esforços em compartilhar conhecimento sobre as ferramentas HashiCorp e eu tive a honra de ser escolhido para participar desse seleto grupo de pessoas. Veja no post mais informações sobre o programa e um breve overview sobre a HashiCorp e seus produtos. " />
+<meta name="twitter:image" content="/imagens/2020/06/hashicorp-ambassador-2020-cover.jpg" />
+<meta name="twitter:url" content="https://homelaber.com.br/hashicorp-ambassador-2020/" />
+
+
+
+
+<link rel="stylesheet" href="https://homelaber.com.br/assets/style.css">
+
+
+<link rel="stylesheet" href="https://homelaber.com.br/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://homelaber.com.br/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="https://homelaber.com.br/img/favicon.png">
+
+
+
+
+
+
+
+  </head>
+  <body class="">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="../" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+
+</span>
+    <span class="logo__text">Homelaber Brasil</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+
+
+
+  <ul class="menu__inner menu__inner--desktop">
+  
+    			<li>
+			<a href="https://twitter.com/homelaber" target="_blank"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
+			</li>
+			<li>
+			<a href="https://www.linkedin.com/in/valdecircarvalho/" target="_blank"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
+			</li>
+			<li>
+			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
+			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>
+
+
+    
+      
+        
+			<li><a href="../archive/"><i class='fas fa-archive' style='font-size: 1.5em; color: black;'></i> </a></li>
+        
+      
+        
+			<li><a href="../sobre/"><i class='fas fa-user-ninja' style='font-size: 1.5em; color: black;'></i> </a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+  
+    		<li>
+			<a href="https://twitter.com/homelaber" target="_blank"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
+			</li>
+			<li>
+			<a href="https://www.linkedin.com/in/valdecircarvalho/" target="_blank"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
+			</li>
+			<li>
+			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"style="font-size: 1.5em; color: black;"></i></a>
+			</li>
+			<li>
+			<a href="https://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"style="font-size: 1.5em; color: black;"></i></a>
+			</li>
+			
+    
+      
+        <li><a href="../archive/"></a></li>
+      
+    
+      
+        <li><a href="../sobre/"></a></li>
+      
+    
+  </ul>
+
+
+
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        
+<svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+ 
+
+      <h1 class="post-title"><a href="https://homelaber.com.br/hashicorp-ambassador-2020/">Hashicorp Ambassador 2020</a></h1>
+      <div class="post-meta">
+        
+          <span class="post-date">
+            <i class="fas fa-calendar-day"></i> 08-06-2020
+          </span>
+        
+        
+		<span class="post-author"> — 
+		<i class="fas fa-user-ninja"></i>   Valdecir Carvalho</span>
+        
+          <span class="post-read-time" > — <i class="fas fa-hourglass-half"></i> 5 min lendo</span>
+		  <span class="post-read-time"> — <i class="fas fa-book-dead"></i> 1032 palavras</span>
+
+        
+      </div>
+
+      
+        <span class="post-tags">
+          
+            <i class="fas fa-tag"></i>
+			<a href="https://homelaber.com.br/tags/hashicorp/">HashiCorp</a>&nbsp;
+          
+            <i class="fas fa-tag"></i>
+			<a href="https://homelaber.com.br/tags/hashicorp-ambassador/">HashiCorp Ambassador</a>&nbsp;
+          
+            <i class="fas fa-tag"></i>
+			<a href="https://homelaber.com.br/tags/comunidade/">Comunidade</a>&nbsp;
+          
+            <i class="fas fa-tag"></i>
+			<a href="https://homelaber.com.br/tags/terraform/">Terraform</a>&nbsp;
+          
+            <i class="fas fa-tag"></i>
+			<a href="https://homelaber.com.br/tags/vault/">Vault</a>&nbsp;
+          
+        </span>
+      
+
+      
+        <span class="post-categories">
+          
+            <i class="fas fa-folder-open"></i>
+			<a href="https://homelaber.com.br/categories/blog/">Blog</a>&nbsp;
+          
+            <i class="fas fa-folder-open"></i>
+			<a href="https://homelaber.com.br/categories/hashicorp/">HashiCorp</a>&nbsp;
+          
+            <i class="fas fa-folder-open"></i>
+			<a href="https://homelaber.com.br/categories/comunidade/">Comunidade</a>&nbsp;
+          
+        </span>
+      
+
+
+    
+
+    <br>
+	
+<i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
+<span class="share-box"> 
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="https://twitter.com/intent/tweet?text=Hashicorp%20Ambassador%202020&amp;url=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f&amp;title=Hashicorp%20Ambassador%202020" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f&amp;title=Hashicorp%20Ambassador%202020" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="mailto:?subject=Hashicorp%20Ambassador%202020&amp;body=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+  </span>
+
+
+
+
+    <div class="post-content">
+
+      
+      <p>Olá Homelabers!</p>
+<p>Vocês conhecem a 
+<a href="https://www.hashicorp.com/" target="_blank">HashiCorp</a>? Aquele empresa super bacana que entre outros produtos do seu portfolio tem o Terraform?</p>
+<h2 id="hashicorp-ambassador">Hashicorp Ambassador</h2>
+<hr>
+<p><img src="../imagens/2020/06/hashicorp-ambassador.jpg" alt="HashiCorp Ambassador"></p>
+<p>No final de Março 2020, a Hashicorp postou um tweet em sua conta falando sobre um novo programa chamado <a href="https://www.hashicorp.com/blog/hashicorp-ambassador-call-for-nominations/" target="_blank">HashiCorp Ambassador</a>, para reconhecer membros da comunidade pelos seus eforços em compartilhar conteúdo sobre as ferramentas HashiCorp. Achei muito legal a proposta do programa e resolvi me inscrever, mesmo achando que não daria em nada.</p>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Today we launched the HashiCorp Ambassador program, to recognize community members for their efforts in sharing knowledge around HashiCorp tools. The call for nominations is open now through April 5. Read more about the program here: <a href="https://t.co/DV3eikQmWF">https://t.co/DV3eikQmWF</a> <a href="https://t.co/IAPrCtpMSb">pic.twitter.com/IAPrCtpMSb</a></p>&mdash; HashiCorp (@HashiCorp) <a href="https://twitter.com/HashiCorp/status/1242527862399303681?ref_src=twsrc%5Etfw">March 24, 2020</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Foi quanto na última <strong>sexta-feira, 27/05</strong>, vi um e-mail na caixa de spam :( que me deixou muito feliz. Eu fui escolhido como um dos <strong>Hashicorp Ambassador 2020</strong>.</p>
+<p><img src="../imagens/2020/06/hashicorp-ambassador-email.png" alt="HashiCorp AMbassador"></p>
+<p>Ainda não está bem claro quais são os benefícios ou as atividades que os Hashicorp Ambassadors irão ter, mas de qualquer maneira, fazer parte desse grupo é bastante gratificante e estou certo que muito em breve mais informações serão dadas e eu volto para avisar vocês e atualizar o post.</p>
+<h2 id="um-pouquinho-de-história">Um pouquinho de história</h2>
+<hr>
+<p>A <strong>HashiCorp</strong> foi fundada por <a href="https://twitter.com/mitchellh" target="_blank">Mitchell Hashimoto</a> e <a href="https://twitter.com/armon" target="_blank">Armon Dadgar</a> em 2012 com o objetivo de revolucionar o gerenciamento de datacenter: desenvolvimento, entrega e manutenção de aplicativos.</p>
+<p>O primeiro produto lançado pela Hashicorp foi o <a href="https://en.wikipedia.org/wiki/Vagrant_%28software%29" target="_blank">Vagrant</a> em 2010, que começou como um side-project pessoal do Mitchell Hashimoto e depois recebeu aporte de inventidores e o resto é história.</p>
+<p>Nesse <a href="https://www.hashicorp.com/resources/what-is-the-hashicorp-origin-story/%20" target="_blank">post</a>, Mitchell e Armon conta a história da origem da Hashicorp. Vale assistir.</p>
+<h2 id="os-produtos-da-hashicorp">Os produtos da Hashicorp</h2>
+<hr>
+<p><img src="../imagens/2020/06/hashicorp-product-stack.jpg" alt="image title"></p>
+<h3 id="hahahugoshortcode-s7-hbhb"><a href="https://www.vagrantup.com/" target="_blank">Vagrant</a></h3>
+<p>O <strong>Vagrant</strong> é uma ferramenta para criar e gerenciar ambientes de máquinas virtuais em um único fluxo de trabalho. Com um fluxo de trabalho fácil de usar e foco na automação, o Vagrant reduz o tempo de configuração do ambiente de desenvolvimento, aumenta a paridade da produção e faz com que os &ldquo;trabalhos na minha máquina&rdquo; desculpem uma relíquia do passado.</p>
+<h3 id="hahahugoshortcode-s8-hbhb"><a href="https://www.hashicorp.com/products/terraform/" target="_blank">Terraform</a></h3>
+<p>O <strong>Terraform</strong> é uma ferramenta para criar, alterar e criar versões de infraestrutura com segurança e eficiência. A Terraform pode gerenciar provedores de serviços existentes e populares, bem como soluções internas personalizadas.</p>
+<p>Os arquivos de configuração descrevem para Terraform os componentes necessários para executar um único aplicativo ou todo o seu datacenter. O Terraform gera um plano de execução descrevendo o que fará para atingir o estado desejado e, em seguida, executa-o para construir a infraestrutura descrita. À medida que a configuração muda, o Terraform pode determinar o que mudou e criar planos de execução incrementais que podem ser aplicados.</p>
+<p>A infraestrutura que o Terraform pode gerenciar inclui componentes de baixo nível, como instâncias de computação, armazenamento e rede, além de componentes de alto nível, como entradas DNS, recursos SaaS, etc.</p>
+<h3 id="hahahugoshortcode-s9-hbhb"><a href="https://www.hashicorp.com/products/vault/" target="_blank">Valt</a></h3>
+<p>O <strong>Vault</strong> é uma ferramenta para acessar com segurança segredos. Um segredo é qualquer coisa a que você deseja controlar rigidamente o acesso, como chaves de API, senhas ou certificados. O Vault fornece uma interface unificada para qualquer segredo, ao mesmo tempo em que fornece controle rígido de acesso e registra um log de auditoria detalhado.</p>
+<p>Um sistema moderno requer acesso a vários segredos: credenciais de banco de dados, chaves de API para serviços externos, credenciais para comunicação de arquitetura orientada a serviços, etc. Entender quem está acessando quais segredos já é muito difícil e específico da plataforma. Adicionar rolagem de chaves, armazenamento seguro e logs de auditoria detalhados é quase impossível sem uma solução personalizada. É aqui que o Vault entra em ação.</p>
+<h3 id="hahahugoshortcode-s10-hbhb"><a href="https://www.hashicorp.com/products/consul/" target="_blank">Consul</a></h3>
+<p>O <strong>Consul</strong> é uma solução de malha de serviço que fornece um plano de controle completo com funcionalidade de descoberta, configuração e segmentação de serviço. Cada um desses recursos pode ser usado individualmente, conforme necessário, ou eles podem ser usados juntos para criar uma malha de serviço completo. O Consul requer um plano de dados e suporta um proxy e um modelo de integração nativo. O Consul é fornecido com um proxy embutido simples para que tudo funcione imediatamente, mas também suporta integrações de proxy de terceiros, como o Envoy.</p>
+<h3 id="hahahugoshortcode-s11-hbhb"><a href="https://www.hashicorp.com/products/nomad/" target="_blank">Nomad</a></h3>
+<p>O <strong>Nomad</strong> é um utilitário de código aberto que reduz bastante a complexidade de automatizar, agendar e reagendar a implantação de aplicativos. O Nomad permite que engenheiros e desenvolvedores de operações trabalhem juntos mais de perto e melhora o custo total de propriedade utilizando melhor o hardware do servidor.</p>
+<h3 id="hahahugoshortcode-s12-hbhb"><a href="https://www.packer.io/" target="_blank">Packer</a></h3>
+<p>O <strong>Packer</strong> é uma ferramenta de código aberto para criar imagens de máquina idênticas para várias plataformas a partir de uma única configuração de código-fonte. O Packer é leve, é executado em todos os principais sistemas operacionais e tem alto desempenho, criando imagens de máquinas para várias plataformas em paralelo. O Packer não substitui o gerenciamento de configurações como Chef ou Puppet. De fato, ao criar imagens, o Packer pode usar ferramentas como Chef ou Puppet para instalar software na imagem.</p>
+<h3 id="hahahugoshortcode-s13-hbhb"><a href="https://www.hashicorp.com/sentinel/" target="_blank">Sentinel</a></h3>
+<p>O <strong>Sentinel</strong> é uma política incorporável como estrutura de código para permitir decisões de política refinadas e baseadas em lógica que podem ser estendidas para obter informações externas e tomar decisões.</p>
+<h2 id="meu-envolvimento-com-a-hashicorp">Meu envolvimento com a Hashicorp</h2>
+<hr>
+<p>Agora você deve estar se perguntando:  - Valdecir, qual o seu envolvimento com a Hashicorp?</p>
+<p>Eu sou fã de carteirinha da empresa já há bastante tempo. Lembro que usei bastante Vagrant para estudar e depois - na medida do possível - cai de cabeça em Terraform.</p>
+<p>Infelizmente, nas minhas últimas posições não tive como usar IaC no dia a dia, mas sou um estudioso do produto. Fiz algumas apresentações sobre Terraform no AWS User Group SP, no VMUG, no Microsoft e recentemente tenho usado bastante na Oracle.</p>
+<p>Para quem não sabe, é possível fazer toda automação no <a href="https://www.terraform.io/docs/providers/oci/index.html" target="_blank">OCI utilizando Terraform</a> e temos o <a href="https://docs.cloud.oracle.com/pt-br/iaas/Content/ResourceManager/Concepts/resourcemanager.htm" target="_blank">Resource Manager</a>.</p>
+<h2 id="cenas-dos-próximos-capítulos">Cenas dos próximos capítulos</h2>
+<hr>
+<p>Quero me dedicar a aprender os outros produtos da Hashicorp, principalmente o Vault e o Packer e continuar mais a fundo com o Terraform.</p>
+<p>Como disse anteriormente, Terraform é a principal ferramenta de IaC do OCI, então vou trazer bastante conteúdo de Terraform por aqui.</p>
+<p>E por final, quero me aproximar mais do <a href="https://www.meetup.com/pt-BR/Sao-Paulo-HashiCorp-User-Group/" target="_blank">HashiCorp User Group São Paulo</a>e da comunidade.</p>
+<hr>
+<p>Até o próximo post pessoal!
+&ndash;VC</p>
+
+	 
+	 <style>
+ 
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+.media-figure {
+  margin-right: 1em;
+}
+.media-body {
+  flex: 1;
+}
+
+ 
+.author-box {
+    background: #f7f7f7;
+    padding: 30px;
+    border-radius: 2px;
+	font-size:small;
+}
+</style>
+
+
+    
+<i class="fas fa-heart" style="font-size: 1em; color: red;"></i> Compartilhe esse post nas redes sociais...	
+<span class="share-box"> 
+   <a href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-facebook" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="https://twitter.com/intent/tweet?text=Hashicorp%20Ambassador%202020&amp;url=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-twitter" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="http://www.reddit.com/submit?url=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-reddit" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f&amp;title=Hashicorp%20Ambassador%202020" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-linkedin" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="whatsapp://send?text=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f&amp;title=Hashicorp%20Ambassador%202020" onclick="window.open(this.href, 'mywin',
+'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><i class="fab fa-whatsapp-square" style="font-size: 1.5em; color: black;"></i></a>
+&nbsp;
+    <a href="mailto:?subject=Hashicorp%20Ambassador%202020&amp;body=https%3a%2f%2fhomelaber.com.br%2fhashicorp-ambassador-2020%2f" data-proofer-ignore=""><i class="fa fa-envelope" style="font-size: 1.5em; color: black;"></i></a>
+  </span>
+
+
+
+	
+
+
+<div class="media author-box">
+
+    <div class="media-figure">
+        <img src="../img/avatar-valdecir-8bits.png" width="100" height="100">
+    </div>
+
+    <div class="media-body">
+        <p><h3>Valdecir Carvalho</h3></p><p> Nerd e pai orgulhoso da Mariana e João. Profissional Sênior de TI com foco em arquitetura de infraestrutura e cloud computing. Blogueiro, podcaster, palestrante, amante de comunidades técnicas, fotógrafo aposentado e adora jogos antigos. </p><p>#vExpert · #VMUGLeader · #VUGBrasil · #vBronwBagBrasil · #VeeamVanguard</p>
+		<p><span style="font-size: 3em; color: Purple;">
+			<a href="https://twitter.com/homelaber" target="_blank"><i class="fab fa-twitter"></i></a>
+			</span>
+			<span style="font-size: 3em; color: Purple;">
+			<a href="https://www.linkedin.com/in/valdecircarvalho/" target="_blank"><i class="fab fa-linkedin"></i></a>
+			</span>
+			<span style="font-size: 3em; color: Purple;">
+			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"></i></a>
+			</span>
+			<span style="font-size: 3em; color: Purple;">
+			<a href="https://t.me/vcarva" target="_blank"><i class="fab fa-telegram"></i></a>
+			</span>
+			<span style="font-size: 3em; color: Purple;">
+			<a href="http://wa.me/5511952593615" target="_blank"><i class="fab fa-whatsapp"></i></a>
+			</span>
+			<span style="font-size: 3em; color: Purple;">
+			<a href="http://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"></i></a>
+			</span>			
+         </p>
+		 
+        
+    </div>
+
+</div>
+	 
+
+			 
+
+		 
+			 
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h">Leia outros posts</span>
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="https://homelaber.com.br/programa-vmware-vexpert-20202h-dicas/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Programa VMware vExpert 2020 2H - Dicas para aplicar</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="https://homelaber.com.br/updates-treinamento-certificacao-oracle-cloud-gratis/">
+                  <span class="button__text">Updates - Treinamento e Certificação Oracle Grátis</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+    
+
+    
+      
+        
+
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright copyright--user">2016-2019 - Homelaber Brasil - Valdecir Carvalho </div>
+	  
+    
+  </div>
+  	<p><span style="font-size: 2em; color: Gray;">
+			<a href="https://twitter.com/homelaber" target="_blank"><i class="fab fa-twitter"></i></a>
+			</span>
+			<span style="font-size: 2em; color: Gray;">
+			<a href="https://www.linkedin.com/in/valdecircarvalho/" target="_blank"><i class="fab fa-linkedin"></i></a>
+			</span>
+			<span style="font-size: 2em; color: Gray;">
+			<a href="https://github.com/valdecircarvalho" target="_blank"><i class="fab fa-github"></i></a>
+			</span>
+			<span style="font-size: 2em; color: Gray;">
+			<a href="https://t.me/vcarva" target="_blank"><i class="fab fa-telegram"></i></a>
+			</span>
+			<span style="font-size: 2em; color: Gray;">
+			<a href="http://wa.me/5511952593615" target="_blank"><i class="fab fa-whatsapp"></i></a>
+			</span>
+			<span style="font-size: 2em; color: Gray;">
+			<a href="http://valdecir.me" target="_blank"><i class="fab fa-fort-awesome"></i></a>
+			</span>			
+         </p>
+</footer>
+
+<script src="https://homelaber.com.br/assets/main.js"></script>
+<script src="https://homelaber.com.br/assets/prism.js"></script>
+
+<hr>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+
+<div class="row">
+  <div class="column"><a href="https://www.veeam.com/vanguard.html" alt="Veeam Vanguard" target="_blank"> <img src="../img/veeam-vanguard-logo.png" alt="Veeam Vanguard" /> </a> </div>
+  <div class="column"><a href="#" alt="Blog Homelaber"> <img src="../img/banner-homelaber-600x130.png" alt="Blog Homelaber" /> </a> </div>
+  <div class="column"><a href="https://vexpert.vmware.com/directory/91" alt="VMware vExpert" target="_blank"> <img src="../img/vmware-vexpert-logo.png" alt="VMware vExpert" /> </a> </div>
+
+</div>
+
+<hr>
+
+<footer class="footer">
+  <div class="footer__inner">
+      
+        <div class="copyright copyright--user"> 
+	  </div>
+	  
+    </div>
+
+		  <p> This blog is proudly powered by <i class="fas fa-heart" style="color: red;"></i> <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></p>
+<hr>
+</footer>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
