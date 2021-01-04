@@ -3221,16 +3221,6 @@ A ideia desse blog é criar e compartilhar conteúdo em Português sobre Homelab
     </item>
     
     <item>
-      <title>titulo</title>
-      <link>https://homelaber.com.br/url-do-post/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://homelaber.com.br/url-do-post/</guid>
-      <description>Olá Homelabers!
- Subititle-1  Subititle-2  Subititle-3  Subititle-4  Subititle-5   </description>
-    </item>
-    
-    <item>
       <title>VMware vExpert PRO &amp; vExpert Sub-Programs 2020</title>
       <link>https://homelaber.com.br/vmware-vexpert-pro-2020/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
