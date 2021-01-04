@@ -1,4 +1,4 @@
-baseurl = "https://homelaber.com.br"
+baseurl = "https://homelaber.com.br/"
 languageCode = "br"
 defaultContentLanguage = "br"
 theme = "hello-friend"
@@ -6,7 +6,7 @@ paginate = 5
 hrefTargetBlank = true
 enableInlineShortcodes = true
 enableEmoji = true
-enableGitInfo = true
+enableGitInfo = false
 enableRobotsTXT = true
 canonifyURLs = true
 relativeURLs = true
@@ -27,8 +27,8 @@ publishDir = "docs"
   socialShare = true ## mostrar o social share
   author = "Valdecir Carvalho"
   authorImage = "/img/valdecir.png"
-  logo_1 = "/img/veeam-vanguard-logo.png"
-  logo_2 = "/img/vmware-vexpert-logo.png" 
+  #logo_1 = "/img/veeam-vanguard-logo.png"
+  #logo_2 = "/img/vmware-vexpert-logo.png" 
   metadescription = "Blog Homelabler Brasil"
   defaultimage = "/img/homelaber-twiiter-card-1200x675.png"
    
